@@ -1,1 +1,162 @@
 posible mechanics 
+
+2d zelda stile game 
+
+2d point and click game 
+
+2d movement no jump. 
+
+animation 
+
+movement controls 
+
+chamomile as a calming flower
+
+how to implement an inventory
+
+
+flowers that can be used as tea.
+
+
+
+rose attack. 
+
+an enemy might become your friend given a (yellow ?) rose.
+
+what is conflict.
+
+alternate winning conditions .
+
+--------------------
+
+menu 
+
+flower type choosing. (other button)
+
+flower activation effect ?
+
+non activation of rose wand 
+
+enemy ai ?
+
+
+
+walking from one side to the other depending on color ?
+
+triangular field of vision
+
+flower trapping
+
+navigation meshh
+
+looking behind the flowers
+
+
+poison flowers 
+
+block flowers
+
+atract flowers
+
+
+
+flower drops (from an enemy eating purple flowers. who then dies.)
+
+
+flower multiplication (exploit ?) (magic bar ?)
+
+
+menu with flower explanation 
+
+pause menu.
+
+
+
+moving left 2 right enemy with field of vission fliping enemy changing animation on moving up or down.
+
+following you? follows roses
+
+
+(npc with various text . 1st time . second time. etc.)(text activation and things)
+
+pause menu.
+
+book.
+
+a flower combination that makes enemies more agresive against each other for better killing of bad guys .
+
+(complicated much?)
+
+
+rose attack.
+
+3 types of flowers .
+
+attaining the rosewand-
+
+
+
+one enemy that goes trouhg daisies .
+
+normal one makes daisies their objective.
+
+red attract only if activated.
+
+if enemy eats reds they become slower.
+
+enemy activation ?
+
+hints 
+
+different rooms 
+
+teleport to the start of the level.
+
+character global character state. 2 point collision 
+
+character flip  an movement.(changes to the fsm )
+
+area of effect  (haze graphic effect)
+
+effects of flowers on enemies 
+
+effect of activating enemies (besides flickering animation)
+
+dungeon explore 
+
+dungeon reset
+
+dungeon time test.
+bouncy flower.
+
+
+overworld 
+
+enemy movement (animations?)
+
+
+for consideration enemies charge attack than can only be blocked by well timed flower activation
+
+character strafe with l and r pushed at the same time (consider the cost of strafe animation)
+.
+ 
+interaction between flower eating and flower allergic.
+
+
+implementation of systems.diagnostics.
+stopwatches
+
+queue (cookie can) queue and deque ?
+
+enemies that follow you from room to room..
+
+calculate path 
+
+folow 
+
+compare node lists for paths to only change course if their initial nodes are different.
+
+get the 100 and one problems of pahtfinding and fun 
+
+
+

@@ -495,28 +495,28 @@ public class player : MonoBehaviour {
 				move ();
 				if(!castUp){
 			
-					transform.Translate(0,speed*Time.deltaTime,0);}
+					transform.Translate(0,speed*Time.deltaTime,0,Space.World);}
 			
 				break;
 		case State.movingDown:
 				move ();
 				if (!castDown){
 				
-				transform.Translate(0,-speed*Time.deltaTime,0);
+					transform.Translate(0,-speed*Time.deltaTime,0,Space.World);
 				}
 			break;
 		case State.movingLeft:
 				move ();
 				if (!castLeft){
 				
-					transform.Translate(-speed*Time.deltaTime,0,0);}
+					transform.Translate(-speed*Time.deltaTime,0,0,Space.World);}
 			break;
 		case State.movingRight :
 				move ();
 
 				if (!castRight){
 				
-						transform.Translate(speed*Time.deltaTime,0,0);}
+					transform.Translate(speed*Time.deltaTime,0,0,Space.World);}
 			break;
 	#endregion
 				#region action

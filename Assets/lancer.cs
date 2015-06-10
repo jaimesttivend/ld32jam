@@ -32,12 +32,14 @@ public class lancer : MonoBehaviour {
 	public Text tex;
 	public Image bubB;
 	public Image bub;
-
+	Animator anim;
 
 	// Use this for initialization
 	void Start () {
 
 		translation = new Vector3 (0f, 0f, 0f);
+
+		anim = GetComponent<Animator> ();
 
 	}
 
@@ -69,11 +71,17 @@ public class lancer : MonoBehaviour {
 	
 		
 		}
-
-
+		int num = 4;
+		num=getdirection (Vector3.zero, translation);
+		if(num != 4){
+			
+			anim.SetInteger("direction",num);
+		}
 
 
 		transform.Translate(translation);
+
+
 
 
 
@@ -132,5 +140,34 @@ public class lancer : MonoBehaviour {
 
 
 	}
+
+	int getdirection(Vector3 start, Vector3 finish){
+		
+		Vector3 result;
+		int num = 4;
+		result = finish - start;
+		
+		if (result.x > 0 && Mathf.Abs (result.x) > Mathf.Abs (result.y)) {
+			num = 2;
+			
+			
+		}
+		if (result.x < 0 && Mathf.Abs (result.x) > Mathf.Abs (result.y)) {
+			num = 3;
+			
+		}
+		
+		if (result.y > 0 && Mathf.Abs (result.y) > Mathf.Abs (result.x)) {
+			num = 0;
+			
+		}
+		if (result.y < 0 && Mathf.Abs (result.y) > Mathf.Abs (result.x)) {
+			num = 1;
+			
+		}
+		
+		return num;
+	}
+
 	
 }

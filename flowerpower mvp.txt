@@ -1,0 +1,54 @@
+flowerpower mvp.
+
+turnbased movement.
+
+goal reaching the door
+
+flower picking.
+
+enemy
+ 
+damage when next to an enemy.
+
+enemy movement
+
+flower count at the end.
+
+
+
+flower planting.
+
+
+
+
+alarm triggers.(nmvp)
+
+enemy pursuit (nmvp)
+
+
+
+flower enhancing(nmvp)
+
+
+
+locking your enemy.(nmvp)
+
+limited time distraction.(nmvp)
+
+turns and speed.(nmvp)
+
+multilevel(nmvp) 
+
+limited resource (flowers)(turns) ?
+
+realtime.(nmvp)
+
+sametime turns.(nmvp)
+
+drawing walking path.(nmvp)
+
+relocating path nodes(nmvp)
+
+ranged attacks. (nmvp)
+
+sneak and tease.(nmvp)

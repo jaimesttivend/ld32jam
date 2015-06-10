@@ -50,8 +50,18 @@
      <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\NewBehaviourScript1.cs" />
      <Compile Include="Assets\enums.cs" />
+     <Compile Include="Assets\gridmovement\GridPlayerControlled.cs" />
+     <Compile Include="Assets\gridmovement\moveGrid.cs" />
+     <Compile Include="Assets\gridmovement\moveGridNode.cs" />
+     <Compile Include="Assets\gridmovement\playerUnit.cs" />
      <Compile Include="Assets\lancer.cs" />
      <Compile Include="Assets\npc.cs" />
+     <Compile Include="Assets\pathfinding\Grid.cs" />
+     <Compile Include="Assets\pathfinding\Heap.cs" />
+     <Compile Include="Assets\pathfinding\Node.cs" />
+     <Compile Include="Assets\pathfinding\PathRequestManager.cs" />
+     <Compile Include="Assets\pathfinding\Pathfinding.cs" />
+     <Compile Include="Assets\pathfinding\Unit.cs" />
      <Compile Include="Assets\player.cs" />
      <Compile Include="Assets\sideGrab.cs" />
      <Compile Include="Assets\vibrate.cs" />
@@ -60,9 +70,6 @@
      <Compile Include="Assets\wand.cs" />
      <None Include="Assets\possible weapons.txt" />
      <None Include="Assets\mechanics.txt" />
- <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/jaime/Documents/5/ld32jam/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/unity5/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
